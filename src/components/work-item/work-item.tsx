@@ -97,7 +97,7 @@ const WorkItem = ({
                     title={name}
                     className={`w-full h-screen ${
                         isModalOpened ? "opacity-100" : "opacity-0"
-                    } transition-all duration-300 p-10 pt-14`}
+                    } transition-all duration-300 md:py-0 p-10 pt-14`}
                 ></iframe>
             </div>
         </div>
