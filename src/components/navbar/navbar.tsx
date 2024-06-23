@@ -90,8 +90,10 @@ const Navbar = (): JSX.Element => {
             </div>
             {isMenuOpened && (
                 <div
-                    className={`fixed z-50 shadow-2xl bg-gray ring-1 ring-black/10 transition-all ease-in-out duration-100 inset-y-0 right-0 h-full max-w-xs w-full animate-drawer-open h-screen ${
-                        isMenuLoadingToClose && "animate-drawer-close"
+                    className={`fixed z-50 shadow-2xl bg-gray ring-1 ring-black/10 transition-all ease-in-out duration-100 inset-y-0 right-0 max-w-xs w-full  h-screen ${
+                        isMenuLoadingToClose
+                            ? "animate-drawer-close"
+                            : "animate-drawer-open"
                     }`}
                     style={{
                         pointerEvents: "auto",

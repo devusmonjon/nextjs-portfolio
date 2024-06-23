@@ -1,6 +1,8 @@
 import {
     About,
     Experiences,
+    Footer,
+    GetInTouch,
     Hero,
     Navbar,
     Skills,
@@ -19,6 +21,8 @@ export default function Home() {
                 <Experiences />
                 <Work />
                 <Testimonials />
+                <GetInTouch />
+                <Footer />
             </main>
         </>
     );

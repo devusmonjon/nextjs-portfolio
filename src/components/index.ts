@@ -10,3 +10,5 @@ export { default as Work } from "./work/work";
 export { default as WorkItem } from "./work-item/work-item";
 export { default as Testimonials } from "./testimonials/testimonials";
 export { default as TestimonialsItem } from "./testimonials-item/testimonials-item";
+export { default as GetInTouch } from "./get-in-touch/get-in-touch";
+export { default as Footer } from "./footer/footer";

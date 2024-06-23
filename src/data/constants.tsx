@@ -57,6 +57,8 @@ const userData: IUserData = {
     location: "Urgut, Samarkad, Uzbekistan",
     status: "Aviable for projects",
     photo: MyPicture,
+    email: "usmonjon@usmonjon.uz",
+    phone: "+998-(90)-193-1320",
     socials: [
         {
             name: "GitHub",

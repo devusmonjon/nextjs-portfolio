@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+}
+
 /* Ref :: https://twitter.com/steventey/status/1677339375645126659 */
 :root {
   --app-gray-default: 255 255 255;

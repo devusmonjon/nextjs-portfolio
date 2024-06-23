@@ -11,6 +11,8 @@ export interface IUserData {
     location: string;
     status: string;
     photo: string | StaticImageData;
+    email: string;
+    phone: string;
     socials: { name: string; url: string; icon: JSX.Element }[];
 }
 
@@ -42,7 +44,7 @@ export interface IProjectDetails {
 
 export interface ITestimonialDetails {
     personName: string;
-    personAvatar?: string | StaticImageData;
+    personAvatar: string | StaticImageData;
     testimonial: string;
     title: string;
 }
