@@ -28,6 +28,7 @@ const About = (): JSX.Element => {
                                 style={{
                                     color: "transparent",
                                     objectFit: "cover",
+                                    objectPosition: "0 -31px";
                                 }}
                                 src={"/images/231A8625.JPG"}
                             />
