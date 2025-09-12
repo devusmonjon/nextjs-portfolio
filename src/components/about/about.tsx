@@ -29,7 +29,7 @@ const About = (): JSX.Element => {
                                     color: "transparent",
                                     objectFit: "cover",
                                 }}
-                                src={"/images/me2.png"}
+                                src={"/images/231A8625.JPG"}
                             />
                             <div className="absolute h-[360px] w-[320px] border-8 border-transparent bg-gray-200 max-md:top-5 md:bottom-0 md:left-0 md:h-[420px] md:w-[340px] lg:h-[480px] lg:w-[400px]"></div>
                         </div>
