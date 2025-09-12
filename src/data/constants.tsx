@@ -1,4 +1,4 @@
-import MyPicture from "/public/images/me.png";
+import MyPicture from "/public/images/photo_2025-09-12 14.56.52.jpeg";
 
 import LogoJavascript from "/public/images/logos/icon-javascript.svg";
 import LogoTypescript from "/public/images/logos/icon-typescript.svg";
