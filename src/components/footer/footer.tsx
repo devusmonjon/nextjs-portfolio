@@ -22,13 +22,13 @@ const Footer = (): JSX.Element => {
                         <path d="M15 9.354a4 4 0 1 0 0 5.292"></path>
                     </svg>
                     {`copyright | ${new Date().getFullYear()} \t`}
-                    coded with ❤️️ by &nbsp;
+                    coded by &nbsp;
                     <Link
                         target="_blank"
                         href="https://github.com/devusmonjon"
                         className="underline underline-offset-4 transition-all hover:text-gray-900 active:text-gray-600"
                     >
-                        Usmonjon Hasanov
+                        Usmonjon Xasanov
                     </Link>
                 </p>
             </div>
